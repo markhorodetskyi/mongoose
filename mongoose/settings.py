@@ -119,4 +119,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+# noinspection PyUnresolvedReferences
 TEMPLATE_DIRS = (os.path.join(BASE_DIR,  'templates'),)
